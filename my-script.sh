@@ -30,4 +30,4 @@ kubectl get pods
 # kubectl expose deployment nginx-app --port=80 --type=LoadBalancer
 
 # To clean up resources (optional)
-# az group delete --name $resourceGroupName --yes --no-wait
+az group delete --name $resourceGroupName --yes --no-wait
